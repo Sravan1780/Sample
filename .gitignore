@@ -1,0 +1,87 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# Build outputs
+dist/
+dist-ssr/
+out/
+build/
+.cache/
+.temp/
+.next/
+.nuxt/
+server/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# OS-specific files
+*.lock
+*.crt
+*.key
+*.pem
+*.bat
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Test files
+coverage/
+.jest/
+jest-html-reporters-*.json
+
+# Lint and formatting tools
+.eslintcache
+.prettierignore
+.prettiercache
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.log.*
+
+# Static assets and upload folders (if applicable)
+public/uploads/
+static/media/
+
+# Framework-specific
+functions/node_modules/  # Firebase Functions
+.storybook/
+
+# CI/CD and deployment
+.idea/
+.vscode/
+*.pid
+*.seed
+.now/
